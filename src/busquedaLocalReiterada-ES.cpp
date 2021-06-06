@@ -212,7 +212,7 @@ set<int> maximumDiversityProblem::findSimAnnealingSolution(set<int> &solution, d
       int num_success, num_neighbor;
       const int max_neighbor = 10  * m;
       const int max_success  = (int) (0.1 * max_neighbor);
-      const int NE = (int) (100000.0/max_neighbor); // NE: Numero de Enfriamientos => M
+      const int NE = (int) (10000.0/max_neighbor); // NE: Numero de Enfriamientos => M
 
       set<int> neighbor;
 
